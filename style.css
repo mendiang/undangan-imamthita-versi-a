@@ -199,7 +199,7 @@
         /* Atau jika hero tidak display:flex, atur tinggi spesifik untuk overlay ini */
         /* min-height: 80vh; /* Pastikan overlay punya cukup tinggi */
         /* TAMBAHKAN ATAU NAIKKAN NILAI padding-top */
-        padding-top: 4vh;  /* Contoh: 8% dari tinggi viewport. Coba nilai lain seperti 60px, 10vh, dll. */
+        padding-top: 2vh;  /* Contoh: 8% dari tinggi viewport. Coba nilai lain seperti 60px, 10vh, dll. */
                             /* Padding spesifik untuk konten di dalam overlay ini. */
         padding-bottom: 5vh; /* Sesuaikan padding bawah juga jika perlu */
         padding-left: 20px;
