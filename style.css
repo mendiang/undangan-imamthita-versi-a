@@ -199,7 +199,7 @@
         /* Atau jika hero tidak display:flex, atur tinggi spesifik untuk overlay ini */
         /* min-height: 80vh; /* Pastikan overlay punya cukup tinggi */
         /* TAMBAHKAN ATAU NAIKKAN NILAI padding-top */
-        padding-top: 12vh;  /* Contoh: 8% dari tinggi viewport. Coba nilai lain seperti 60px, 10vh, dll. */
+        padding-top: 4vh;  /* Contoh: 8% dari tinggi viewport. Coba nilai lain seperti 60px, 10vh, dll. */
                             /* Padding spesifik untuk konten di dalam overlay ini. */
         padding-bottom: 5vh; /* Sesuaikan padding bawah juga jika perlu */
         padding-left: 20px;
@@ -211,8 +211,8 @@
         text-align: center; /* Pastikan teks di grup ini terpusat */
     }
 
-    header#hero-main.hero-section .hero-wedding-of-secondary { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0.9; margin-bottom: 5px; }
-    header#hero-main.hero-section .hero-names-secondary.font-esthetic { font-size: 3.5rem; line-height: 1.1; color: #fcefee; margin-bottom: 8px; text-shadow: 1px 1px 3px rgba(0,0,0,0.4); } /* Akan di-override di desktop */
+    header#hero-main.hero-section .hero-wedding-of-secondary { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0.9; margin-bottom: 15px; }
+    header#hero-main.hero-section .hero-names-secondary.font-esthetic { font-size: 3.5rem; line-height: 1.1; color: #fcefee; margin-bottom: 2px; text-shadow: 1px 1px 3px rgba(0,0,0,0.4); } /* Akan di-override di desktop */
     header#hero-main.hero-section .hero-date-secondary { font-size: 1.1rem; opacity: 0.9; margin-bottom: 25px; }
     header#hero-main.hero-section #countdown-hero.hero-countdown-secondary { display: flex; justify-content: center; gap: 15px; margin-bottom: 25px; color: #fff; }
     header#hero-main.hero-section #countdown-hero .countdown-item h3 { font-size: 2rem; font-weight: bold; margin-bottom: 0; line-height: 1; color: #fcefee; }
